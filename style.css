@@ -1,0 +1,19 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.like{
+    font-size: 200px;
+    margin-top: 20vh;
+    color: gray;
+    transition: all 0.5s;
+    
+}
+.like:hover{
+    color: rgba(0, 0, 0, 0.541);
+}
+.like:focus{
+   color: blue;
+   rotate: 1deg;
+}
